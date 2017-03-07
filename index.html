@@ -1,10 +1,26 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Hello React</title>
+  <meta charset="utf-8">
+  <title>Chatty</title>
 </head>
 <body>
+<nav class="navbar">
+  <a href="/" class="navbar-brand">Chatty</a>
+</nav>
+<main class="messages">
+  <div class="message">
+    <span class="message-username">Anonymous1</span>
+    <span class="message-content">I won't be impressed with technology until I can download food.</span>
+  </div>
+  <div class="message system">
+    Anonymous1 changed their name to nomnom.
+  </div>
+</main>
+<footer class="chatbar">
+  <input class="chatbar-username" placeholder="Your Name (Optional)" />
+  <input class="chatbar-message" placeholder="Type a message and hit ENTER" />
+</footer>
   <div id="react-root"></div>
   <script src="/build/bundle.js"></script>
 </body>
