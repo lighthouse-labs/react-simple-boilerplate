@@ -1,45 +1,24 @@
-React Boilerplate
-=====================
+# README
 
-A minimal and light dev environment for ReactJS.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-### Usage
+Things you may want to cover:
 
-Clone the boilerplate and create your own git repo.
+* Ruby version
 
-```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-cd react-simple-boilerplate
-git remote rm origin
-git remote add origin [YOUR NEW REPOSITORY]
-# Manually update your package.json file
-```
+* System dependencies
 
-Install the dependencies and start the server.
+* Configuration
 
-```
-npm install
-npm start
-open http://localhost:3000
-```
+* Database creation
 
-### Static Files
+* Database initialization
 
-You can store static files like images, fonts, etc in the `build` folder.
+* How to run the test suite
 
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
+* Services (job queues, cache servers, search engines, etc.)
 
-### Linting
+* Deployment instructions
 
-This boilerplate project includes React ESLint configuration.
-
-```
-npm run lint
-```
-
-### Dependencies
-
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+* ...
