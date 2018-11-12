@@ -1,8 +1,10 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
   devtool: 'eval',
+  mode: NODE_ENV,
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
     './src/index.jsx'
